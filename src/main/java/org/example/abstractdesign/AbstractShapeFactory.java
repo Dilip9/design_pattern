@@ -1,4 +1,5 @@
 package org.example.abstractdesign;
 
-public class AbstractShapeFactory {
+public abstract class AbstractShapeFactory {
+    public abstract Shape getShape(String shapeType);
 }
