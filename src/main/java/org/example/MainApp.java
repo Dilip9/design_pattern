@@ -45,5 +45,7 @@ public class MainApp {
         rectangleShapes.draw();
         Shape squareShapes = shapeFactoryWithTrue.getShape("SQUARE");
         squareShapes.draw();
+
+
     }
 }
