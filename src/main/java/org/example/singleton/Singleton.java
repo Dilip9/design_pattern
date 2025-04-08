@@ -14,9 +14,9 @@ public class Singleton {
         System.out.println(tripleton);
         System.out.println(tripleton2);
         System.out.println(tripleton3);
-        System.out.println("Instance 4 which need to be reuse"+tripleton4);
-        System.out.println(""+tripleton5);
-        System.out.println(tripleton6);
+        System.out.println("Instance 4 which need to use existing "+tripleton4);
+        System.out.println("Instance 5 should use existing instance :"+tripleton5);
+        System.out.println("Instance 6::: Make use of exisintg..."+tripleton6);
 
 
 
