@@ -7,7 +7,6 @@ public class Tripleton {
 
     private Tripleton() {
         // Private constructor to prevent instantiation
-        System.out.println("Creating instance " + index);
     }
 
     static{
@@ -18,7 +17,11 @@ public class Tripleton {
 
     public static Tripleton getInstance(){
         Tripleton instance = instances[index];
+        System.out.println("Returning instance number:  " + index);
         index = (index + 1) % MAX_INSTANCES;
         return instance;
     }
+//    public String toString() {
+//        return "Tripleton instance " + index;
+//    }
 }
